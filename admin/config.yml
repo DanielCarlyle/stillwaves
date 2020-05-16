@@ -1,0 +1,62 @@
+backend:
+  name: github
+  repo: DanielCarlyle/cjfilms
+  branch: master
+  site_domain: cjmfilms.netlify.app
+
+
+media_folder: "img/clients"
+
+collections:
+   - name: "post" # Used in routes, e.g. /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}   
+
+
+  - name: "home-page-video"
+    label: "Home Page Video"
+    files:
+      - label: "home page video settings"
+        name: "site"
+        file: "_data/site.yml"     
+        fields: 
+          -  label: "Video"
+             name: "front_page_video"
+             widget: "text"
+  - name: "website-settings"
+    label: "Website settings"
+    files:
+      - label: "Website settings"
+        name: "site"
+        file: "_data/site.yml"     
+        fields: 
+          -  label: "Bio Description"
+             name: "bio_description"
+             widget: "text"
+          -  label: "Bio Accomplishments"
+             name: "bio_accomplishments"
+             widget: "text"
+          -  label: "Location"
+             name: "location"
+             widget: "object" 
+             fields: 
+               - label: "Description"
+                 name: "description"
+                 widget: "string"  
+               - label: "City"
+                 name: "city"
+                 widget: "string"
+               - label: "Region"
+                 name: "region"
+                 widget: "string"
+               - label: "Country"
+                 name: "country"
+                 widget: "string"     
+
+                  
