@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CJM Films
-email: christopherjohn27@gmail.com
+title: StillWaves 
+email: dan.carlyle@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Chris Malanchen is a professional film and television editor based in Toronto, Canada. His background is in the fine arts: drawing and painting. He explored a passion for filmmaking while attending art school and discovered his favorite role was editing.
+  StillWaves is a post-punk band from Toronto, Ontario, Canada. 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://cjmfilms.netlify.app" # the base hostname & protocol for your site
+url: "https://www.stillwaves.ca" # the base hostname & protocol for your site
 twitter_username: 
 github_username: danielcarlyle 
 
