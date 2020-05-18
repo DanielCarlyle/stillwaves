@@ -11,6 +11,10 @@
   --spacing: 0px;
 }
 
+main {
+  min-height: 100vh;
+}
+
 figure {
   margin: auto;
 }
@@ -449,8 +453,8 @@ iframe {
   }
 }
 footer {
-  padding: 2em 0;
-  background-color: #1a1a1a;
+  padding: 3em 0;
+  background-color: #202223;
   color: #fff;
   font-weight: #d9d9d9;
   margin-top: 4em;
