@@ -211,6 +211,13 @@ a {
   margin: 0 auto;
 }
 
+textarea {
+  overflow: auto;
+  resize: vertical;
+  width: 36em;
+  height: 13em;
+}
+
 h1 {
   position: relative;
   z-index: 1;
