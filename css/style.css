@@ -440,17 +440,6 @@ header {
   }
 }
 
-/*
-
-body {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
-   //background: $black;
-}
-
-*/
 body {
  background: var(--background);
   -webkit-animation: pulse 80s infinite alternate;
@@ -515,11 +504,13 @@ body {
   transform: translateX(37px);
 }
 
+/*
 .light-theme a,
 .light-theme ul,
 .light-theme li {
   color: var(--text);
 }
+*/
 
 ul,
 ol {
@@ -788,11 +779,37 @@ iframe {
   margin-top: 4em;
 }
 
+.form-container .form-control {
+  background: #f6f8fa;
+  /*height: 60px; */
+  border: solid 1px #eef2f6;
+  box-shadow: none;
+  width: 100%;
+  border-radius: none;
+}
+
 
 .contact-header {
-  background: url('../img/stillwaves-detroit-cover-lg.jpg') no-repeat;
+  background: url('../img/stillwaves-detroit-cover-sm.jpg') no-repeat;
   background-size: cover;
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  max-height: 650px;
+  overflow: hidden;
+  background-position: center;
 
+}
+
+
+@media only screen and (min-width: 800px) {
+  .contact-header {
+    background: url('../img/stillwaves-detroit-cover-md.jpg') no-repeat;
+    height: 60vh;
+    min-height: 800px;
+  }
 }
 
 footer {
