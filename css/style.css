@@ -121,16 +121,25 @@ body {
 }
 
 .theme-switch {
-  --background: #fff;
-  --text: #000;
-  color: var(--text);
-  width: 70px;
-  height: 30px;
-  background: #2f494c;
-  border-radius: 50px;
-  position: relative;
-  margin: 0 auto;
+  display: none;
 }
+
+
+@media screen and (min-width: 770px) {
+  .theme-switch {
+    display: block;
+    --background: #fff;
+    --text: #000;
+    color: var(--text);
+    width: 70px;
+    height: 30px;
+    background: #2f494c;
+    border-radius: 50px;
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
 
 .theme-switch .switch {
   background: white;
@@ -547,7 +556,7 @@ header a {
 }
 
 nav {
-  max-width: 1180px;
+  /*max-width: 1180px; */
   height: 80px;
   margin: 0px auto;
   display: -webkit-flex;
@@ -699,13 +708,6 @@ header ul li a {
   text-transform: uppercase;
   text-align: center;
   display: block;
-}
-
-@media (min-width: 769px) {
-  .logo a,
-  .main-nav a {
-    padding: 10px 15px;
-  }
 }
 
 
