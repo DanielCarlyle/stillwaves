@@ -624,7 +624,7 @@ header ul li a {
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 769px) {
   header {
       position: relative;
       z-index: 999;
@@ -675,13 +675,13 @@ header ul li a {
 
 .logo {
   margin: 0;
-  font-size: 3.45em;
+  font-size: 2.45em;
 }
 
-@media (max-width: 769px) {
+@media (min-width: 769px) {
   .logo {
     margin: 0;
-    font-size: 2.25em;
+    font-size: 3.45em;
   }
 }
 .main-nav {
@@ -695,11 +695,20 @@ header ul li a {
 
 .logo a,
 .main-nav a {
-  padding: 10px 15px;
+  padding: 10px 5px;
   text-transform: uppercase;
   text-align: center;
   display: block;
 }
+
+@media (min-width: 769px) {
+  .logo a,
+  .main-nav a {
+    padding: 10px 15px;
+  }
+}
+
+
 
 .main-nav a {
   color: #2e98c7;
