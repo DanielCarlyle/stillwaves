@@ -19,6 +19,7 @@ figure {
   margin: .0005px;
 }
 
+
 .img-wrapper {
   background: #ff5722;
   display: -webkit-box;
@@ -430,6 +431,11 @@ iframe {
     width: 560px;
   }
 }
+
+.form-container, .video-container {
+  margin-top: 4em;
+}
+
 footer {
   padding: 3em 0;
   background-color: #202223;
@@ -705,6 +711,7 @@ header ul li a {
 }
 
 header {
+  position: relative;
   padding-left: 2em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
