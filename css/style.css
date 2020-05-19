@@ -788,6 +788,10 @@ iframe {
   border-radius: none;
 }
 
+.contact-header-image {
+  width: 100%;
+  margin: 0 auto;
+}
 
 .contact-header {
   background: url('../img/stillwaves-detroit-cover-sm.jpg') no-repeat;
@@ -800,6 +804,7 @@ iframe {
   max-height: 650px;
   overflow: hidden;
   background-position: center;
+  background-attachment: fixed;
 
 }
 
@@ -809,6 +814,8 @@ iframe {
     background: url('../img/stillwaves-detroit-cover-md.jpg') no-repeat;
     height: 60vh;
     min-height: 800px;
+    background-attachment: fixed;
+
   }
 }
 
