@@ -828,6 +828,17 @@ footer {
 }
 
 
+footer .footer-menu ul li {
+  display: inline-block;
+  padding: 0 20px;
+
+}
+
+.social-icons i {
+  color: #0fe5f7;
+  margin-right: 12px;
+  padding: 1em 0em;
+  }
 
 #return-to-top {
 position: fixed;
