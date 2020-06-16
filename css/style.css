@@ -395,23 +395,19 @@ header {
   }
 }
 
-
 figure {
   margin: .0005px;
 }
 
-
 .img-wrapper {
   background: #ff5722;
   display: -webkit-box;
-  display: flex;
+  display: block;
   -webkit-box-flex: 1;
-  flex: 1 1 100%;
+  flex: inherit;
   overflow: hidden;
   padding: var(--spacing);
   position: relative;
-  max-height: 50em;
-  height: 100%;
 }
 
 .img-wrapper img {
