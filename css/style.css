@@ -285,17 +285,15 @@ header ul li a {
 
 .logo a,
 .main-nav a {
-  padding: 10px 5px;
+  padding: 10px 0px;
   text-transform: uppercase;
   text-align: center;
   display: block;
 }
 
-
-
 .main-nav a {
   color: #2e98c7;
-  font-size: 1.25em;
+  font-size: 1.12em;
 }
 
 .main-nav a:hover {
@@ -725,6 +723,11 @@ body {
     transform: scale(2);
   }
 }
+
+.band-bio {
+  padding: 1em 3em;
+}
+
 .band-bio p {
   font-size: 1.2em;
   line-height: 1.5;
@@ -826,7 +829,6 @@ footer {
   background-color: #202223;
   color: #fff;
   font-weight: #d9d9d9;
-  margin-top: 4em;
 }
 
 
@@ -855,6 +857,45 @@ border-radius: 35px;
 transition: all .3 ease;
 }
 
+/* Mailchimp Styling */
 
+.newsletter-block {
+  background: #1f22235c;
+  padding: 3em 4em;
+}
+
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+
+
+#mc_embed_signup form {
+  text-align: center;
+  padding: 10px 0 10px 0;
+  background: none;
+}
+
+#mc_embed_signup label {
+  display: block;
+  font-size: 30px !important;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+#mc_embed_signup .button {
+  font-size: 15px;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  letter-spacing: .03em;
+  color: #fff;
+  background-color: #00bcd4 !important;
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 18px;
+  display: inline-block;
+  margin: 0;
+  transition: all 0.23s ease-in-out 0s;
+}
 
 
