@@ -638,7 +638,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: auto;
-  max-width: 1063px;
   -webkit-box-pack: center;
   justify-content: flex-end;
   margin-top: 5em;
@@ -869,7 +868,7 @@ transition: all .3 ease;
 
 .newsletter-block {
   background: #1f22235c;
-  padding: 3em 4em;
+  padding: 3em 4em 7em;
 }
 
 #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
