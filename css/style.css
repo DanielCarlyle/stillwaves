@@ -637,11 +637,13 @@ body {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  /* width: 64vmin; */
-  align-content: center;
-  /* max-width: 1063px; */
+  width: auto;
+  max-width: 1063px;
   -webkit-box-pack: center;
   justify-content: flex-end;
+  margin-top: 5em;
+  align-content: space-around;
+  align-items: self-end;
 }
 
 .container-boxes .box {
@@ -698,6 +700,12 @@ body {
   top: 0;
   z-index: -1;
 }
+
+
+.fill-layer:hover {
+  transform: rotate(45deg);
+}
+
 
 @-webkit-keyframes fill {
   0% {
