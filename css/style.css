@@ -1,7 +1,7 @@
 :root {
   --background: rgba(0, 0, 0, 1);
   --text: #fff;
-  --highlight: $primary-blue;
+  --highlight: #00bcd4;
   --base: #f7392b;
   --bg-blend: multiply;
   --blur: 0px;
@@ -798,6 +798,14 @@ iframe {
   box-shadow: none;
   width: 100%;
   border-radius: none;
+}
+
+
+/* News section */
+
+.blog h1 {
+  color: var(--highlight);
+  margin-bottom: 1em;
 }
 
 .contact-header-image {

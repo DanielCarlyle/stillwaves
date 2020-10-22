@@ -32,6 +32,19 @@ sass:
   style: compressed
   sass_dir: _sass  
 
+##paginate: 2
+permalink: none
+comments: true 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
+      author: "StillWaves"
+      category: "News"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
