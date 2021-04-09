@@ -1,77 +1,91 @@
+<section class="section">
+
+   <div class="container">
+      <div class="row">
+         <div class="col-md-10 mx-auto text-center">
+            <h2 style="color: #fff; margin-bottom: 14px;">April 9, 2021 &ndash; NEW TRACK OUT! REGRESSING TIMES</h2>
+            <iframe style="border: 0; width: 350px; height: 442px;"
+               src="https://bandcamp.com/EmbeddedPlayer/track=3498378388/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=false/transparent=true/"
+               seamless><a href="https://stillwaves.bandcamp.com/track/regressing-times">Regressing Times by
+                  StillWaves</a></iframe>
 
 
-    <section class="section container">
-      <div class="container-boxes">
-  
-         <div class="box fill"><a href="music.html">Music</a>
          </div>
-         <div class="box fill">TOUR</div>
-         <div class="box fill"><a href="about.html">About</a></div>
-         <div class="box fill"><a href="videos.html">Videos</a>
-         </div>
-         <div class="box fill"><a href="contact.html">Contact</a></div>
       </div>
-   </section>
+   </div>
+
+</section>
 
 
-   <script>
-      const elements = Array.from(document.querySelectorAll('.fill'));
+<section class="section container">
+   <div class="container-boxes">
 
-function fill(item, index) {
-  
-  const bgColor = getComputedStyle(item).backgroundColor,
-  fillLayer = document.createElement('div');
-  fillLayer.classList.add('fill-layer');
-  item.style.backgroundColor = 'transparent';
-  item.style.position = 'relative';
-  item.style.overflow = 'hidden';
-  setTimeout(function() {
-    fillLayer.style.backgroundColor = bgColor;  
-    item.appendChild(fillLayer);
-  }, index * 1000);
-  
-}
-
-elements.forEach(fill);
-   </script>
+      <div class="box fill"><a href="music.html">Music</a>
+      </div>
+      <div class="box fill"><a href="#">Shows</a></div>
+      <div class="box fill"><a href="about.html">About</a></div>
+      <div class="box fill"><a href="videos.html">Videos</a>
+      </div>
+      <div class="box fill"><a href="contact.html">Contact</a></div>
+   </div>
+</section>
 
 
- 
- <section class="section">
- 
- <div class="container">
-    <div class="row bottom image">
-       <div class="col-md-7 bg-album"></div>
-       <div class="col-md-5 bg-right d-flex align-items-center">
-          <div class="row justify-content-center">
-             <div class="col-sm-8">
-                <div class="content text-left py-3">
-                   <h2 class="album-title">REGRESSING TIMES</h2>
+<script>
+   const elements = Array.from(document.querySelectorAll('.fill'));
 
-                   <h3>Album release 2021</h3>
+   function fill(item, index) {
 
-                   <ul class="album-listing py-4">
-                      <li>1) I See You in Ruins</li>
-                      <li>2) Lost the Plot</li>
-                      <li>3) There is No Hope</li>
-                      <li>4) Mirrors Tell All</li>
-                      <li>5) Regressing Times</li>
-                      <li>6) Modern Fascist
-                      </li>
-                      <li>7) No Minds</li>
-                      <li>8) Trust Yourself </li>
-                   </ul>
+      const bgColor = getComputedStyle(item).backgroundColor,
+         fillLayer = document.createElement('div');
+      fillLayer.classList.add('fill-layer');
+      item.style.backgroundColor = 'transparent';
+      item.style.position = 'relative';
+      item.style.overflow = 'hidden';
+      setTimeout(function () {
+         fillLayer.style.backgroundColor = bgColor;
+         item.appendChild(fillLayer);
+      }, index * 1000);
 
-                  <!-- <button type="button" class="btn btn-lg btn-block btn-outline-dark "><a href="https://stillwaves.bandcamp.com/" target="_blank" rel="noopener">Pre-Order *SOON</a></button> --> 
+   }
 
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
- </div>
+   elements.forEach(fill);
+</script>
 
- </section>      
-   
 
-  
+
+<section class="section">
+
+   <div class="container">
+      <div class="row bottom image">
+         <div class="col-md-7 bg-album"></div>
+         <div class="col-md-5 bg-right d-flex align-items-center">
+            <div class="row justify-content-center">
+               <div class="col-sm-8">
+                  <div class="content text-left py-3">
+                     <h2 class="album-title">REGRESSING TIMES</h2>
+
+                     <h3>Album release 2021</h3>
+
+                     <ul class="album-listing py-4">
+                        <li>1) I See You in Ruins</li>
+                        <li>2) Lost the Plot</li>
+                        <li>3) There is No Hope</li>
+                        <li>4) Mirrors Tell All</li>
+                        <li>5) Regressing Times</li>
+                        <li>6) Modern Fascist
+                        </li>
+                        <li>7) No Minds</li>
+                        <li>8) Trust Yourself </li>
+                     </ul>
+
+                     <!-- <button type="button" class="btn btn-lg btn-block btn-outline-dark "><a href="https://stillwaves.bandcamp.com/" target="_blank" rel="noopener">Pre-Order *SOON</a></button> -->
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</section>
