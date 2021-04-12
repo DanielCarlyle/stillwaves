@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   StillWaves is a post-punk band from Toronto, Ontario, Canada. 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.stillwaves.ca" # the base hostname & protocol for your site
-twitter_username: 
+twitter_username: danielcarlyle
 github_username: danielcarlyle 
 
 # Build settings
@@ -43,7 +43,7 @@ defaults:
     values:
       layout: "default"
       author: "StillWaves"
-      category: "News"
+      category: ""
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

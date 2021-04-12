@@ -1,5 +1,6 @@
 ---
 layout: default
+author: Daniel Carlyle
 title: Benefits of static site generators
 date: 2016-01-19 12:00
 image: http://placehold.it/900x300

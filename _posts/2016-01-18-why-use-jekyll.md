@@ -1,5 +1,6 @@
 ---
 layout: default
+author: Daniel Carlyle
 title: "Why use Jekyll"
 date: 2016-01-08 12:00
 subtitle: Websites are becoming leaner, faster and more agile, as users demand quick, seamless experiences. 

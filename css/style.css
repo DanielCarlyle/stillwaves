@@ -771,6 +771,10 @@ body {
   position:absolute;
 }
 
+.video-top {
+  padding-top: 2em;
+}
+
 #video {
   margin: 0 auto;
   width: 853px;

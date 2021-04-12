@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+author: Daniel Carlyle
 title: "Learning Jekyll"
 date: 2016-01-08 12:00
 image: http://placehold.it/900x300

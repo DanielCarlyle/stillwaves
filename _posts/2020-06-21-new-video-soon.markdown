@@ -1,5 +1,6 @@
 ---
 layout: default
+author: Daniel Carlyle
 title: "How to create an ultra fast blog"
 date: 2020-06-22 12:00
 category: news
