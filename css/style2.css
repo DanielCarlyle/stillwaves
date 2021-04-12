@@ -54,7 +54,8 @@ main {
   --*/
   header {
     background: #fff;
-    padding: 20px 0;
+    margin-bottom: 2em;
+    position: relative;
   }
   header .navbar {
     margin-bottom: 0px;
@@ -349,6 +350,61 @@ main {
       justify-content: space-between;
     }
   }
+
+  /* Video styling */
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  
+  .video-top {
+    padding-top: 2em;
+  }
+  
+  #video {
+    margin: 0 auto;
+    width: 853px;
+  }
+  
+  iframe {
+    margin: 0 auto 50px;
+  }
+  
+  #video .big {
+    display: block;
+  }
+  
+  #video .small {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #video {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    #video .big {
+      display: none;
+    }
+  
+    #video .small {
+      display: block;
+    }
+  
+    #video {
+      width: 560px;
+    }
+  }
   
   
   /*Animation Prefs*/
@@ -493,3 +549,20 @@ main {
     transition: all 0.23s ease-in-out 0s;
   }
   
+
+  
+.error-page {
+    padding-top: 12em;
+   }
+
+  
+.section-top {
+    padding-top: 7em;
+  } 
+
+
+   .box.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
