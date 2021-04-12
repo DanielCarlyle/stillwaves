@@ -445,6 +445,15 @@ main {
   }
 /* EPK Page */
 
+.epk-page button > a {
+    color: inherit;
+  }
+
+  .epk-page button > a:hover {
+    text-decoration: none;
+  }
+
+
 .epk-page h1 {
     color: aqua;
     margin-top: 2em;
