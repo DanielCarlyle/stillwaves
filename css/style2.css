@@ -302,7 +302,6 @@ main {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     background-color: #1a1a1a;
-    position: fixed;
     width: 100vw;
     z-index: 1000;
     margin-bottom: 2em;
@@ -575,3 +574,22 @@ main {
     justify-content: center;
     align-items: center;
   } 
+
+
+  /* News section */
+
+.blog-section {
+  padding: 25px 0 50px;
+
+}
+
+.blog-section ul > li {
+  margin: 20px 0 50px;
+  list-style-type: none;
+}
+
+.blog-section h1 {
+  color: #000000;
+  font-size: 4em;
+  margin-bottom: .25em;
+}

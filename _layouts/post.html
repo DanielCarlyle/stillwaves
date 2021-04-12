@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/ionicons.min.css">
     <!--<link rel="stylesheet" href="css/animate.css"> -->
     <link rel="stylesheet" href="css/responsive.css">
@@ -90,11 +90,24 @@
     {% include nav.html %}
 
     <main>
-        <div class="container blog-section">
-            <div class="row">
+        <div class="container">
+            <div class="row blog-section">
                 <div class="col-md-10 text-left mx-auto">
 
                     {{ content }}
+
+                    {% if page.previous %}
+                    <span class="previous-link">
+                        <a rel="prev" href="{{ page.previous.url }}">Previous article</a>
+                    </span>
+                    {% endif %}
+
+                    {% if page.next %}
+                    <span class="next-link pull-right">
+                        <a rel="next" href="{{ page.next.url }}">Next article</a>
+                    </span>
+                    {% endif %}
+
 
                 </div>
             </div>

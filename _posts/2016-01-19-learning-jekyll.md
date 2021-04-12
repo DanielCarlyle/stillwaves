@@ -4,11 +4,9 @@ author: Daniel Carlyle
 title: Spotify Acct Active
 date: 2016-01-19 12:00
 image: http://placehold.it/900x300
-lead: "We pay a huge price for the underlying complexity of dynamic code running on a server for every request — a price we could avoid paying entirely when this kind of complexity is not needed."
+lead: "We pay a test hugggggggggeeeeeeeeeee."
 subtitle: Create a ultra fast, secure blog that is easy to mantain and easy to scale
 ---
-
-Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.
 
 Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.
 
