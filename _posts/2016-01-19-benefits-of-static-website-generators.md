@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: Daniel Carlyle
 title: Benefits of static site generators
 date: 2016-01-19 12:00

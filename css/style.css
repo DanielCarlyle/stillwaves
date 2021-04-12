@@ -307,10 +307,10 @@ header {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   background-color: #1a1a1a;
-  position: fixed;
+  position: relative;
   width: 100vw;
   z-index: 1000;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
    /*
    border: 1px solid #a2a2a2;
    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
@@ -830,9 +830,14 @@ iframe {
 
 /* News section */
 
-.blog h1 {
+.blog-section ul > li {
+  margin: 20px 0 50px;
+}
+
+.blog-section h1 {
   color: var(--highlight);
-  margin-bottom: 1em;
+  font-size: 4em;
+  margin-bottom: .25em;
 }
 
 .contact-header-image {

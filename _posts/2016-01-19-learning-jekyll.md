@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: post
 author: Daniel Carlyle
-title: "Learning Jekyll"
-date: 2016-01-08 12:00
+title: Spotify Acct Active
+date: 2016-01-19 12:00
 image: http://placehold.it/900x300
-lead: If there is a lesson to be learned, it is the futility of seeking fulfillment in outer space. We need to judge ourselfs by who we are, not by where we go.
+lead: "We pay a huge price for the underlying complexity of dynamic code running on a server for every request — a price we could avoid paying entirely when this kind of complexity is not needed."
+subtitle: Create a ultra fast, secure blog that is easy to mantain and easy to scale
 ---
-
 
 Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.
 
