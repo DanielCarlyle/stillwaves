@@ -545,11 +545,17 @@ a {
   padding: 4em 0;
 }
 
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
   .section {
     padding: 14em 0;
   }
 }
+
+.section {
+  padding: 10em 0;
+}
+
 .text-center {
   text-align: center;
   margin: 0 auto;
@@ -751,6 +757,20 @@ body {
   }
 }
 /* Video styling */
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 #video {
   margin: 0 auto;
   width: 853px;

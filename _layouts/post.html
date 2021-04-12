@@ -1,6 +1,10 @@
-{% include nav.html %} 
+---
+layout: default
+---
 
+{% include nav.html %}
 
+{{ content }}
 
 <!-- POST HTML -->
 <article id="post">
@@ -27,12 +31,12 @@
                 <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %d, %Y"}}</p>
 
                 <hr>
-                
-                   <!-- Preview Image -->
-                   {% if page.image %}
-                   <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
-                   {% endif %}
-                
+
+                <!-- Preview Image -->
+                {% if page.image %}
+                <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
+                {% endif %}
+
 
                 <hr>
 
@@ -40,7 +44,7 @@
                 {% if page.lead %}
                 <p class="lead">{{ page.lead }}</p>
                 {% endif %}
-                
+
                 {{ page.content }}
 
 
@@ -48,19 +52,19 @@
                 {% if site.comments %}
                 {% include comments.html %}
                 {% endif %}
-                
-                 {% if page.previous %}
-                  <span class="previous-link">
+
+                {% if page.previous %}
+                <span class="previous-link">
                     <a rel="prev" href="{{ page.previous.url }}">Previous article</a>
-                  </span>
-                 {% endif %}
-                 
-                 {% if page.next %}
-                  <span class="next-link pull-right">
+                </span>
+                {% endif %}
+
+                {% if page.next %}
+                <span class="next-link pull-right">
                     <a rel="next" href="{{ page.next.url }}">Next article</a>
-                  </span>
-                 {% endif %}
-               
+                </span>
+                {% endif %}
+
                 <hr>
             </div>
 
@@ -69,13 +73,13 @@
 
                 <!-- Blog Categories Well -->
                 <div class="well">
-                   {% for category_name in page.categories limit:1 %}
+                    {% for category_name in page.categories limit:1 %}
                     <h4>{{ category_name | capitalize }}</h4>
-                   
+
                     <div class="row">
                         <div class="col-lg-12">
                             <ul class="list-unstyled">
-                               {% for post in site.categories[category_name] limit:5 %}
+                                {% for post in site.categories[category_name] limit:5 %}
                                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                                 {% endfor %}
                             </ul>
@@ -93,5 +97,3 @@
         <!-- /.row -->
     </div>
 </article>
-
-   
