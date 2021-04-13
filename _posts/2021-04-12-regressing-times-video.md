@@ -8,6 +8,10 @@ lead: The brand spanking new StillWaves music video for the track, "Regressing T
 subtitle: Regressing Times Video
 ---
 
+
+<a href="https://www.youtube.com/watch?v=bEXw6-vPyeQ&t=219s" target="_blank"><img src="https://www.stillwaves.ca/img/stillwaves-skulls.jpg" 
+alt="StillWaves Band Regressing Times Video Image" width="440" height="auto" rel="noopener noreferrer" border="35" /></a>
+
 [REGRESSING TIMES VIDEO](https://www.youtube.com/watch?v=bEXw6-vPyeQ&t=219s)
 
 Regressing Times addresses the destructive inherent ego and vanity humans possess, and how our actions often seem to regress, despite existing in a time of exceptional technological and social advances. 
@@ -55,5 +59,4 @@ These repressive lies<br>
 These aggressive times<br>
 These impressive lies<br>
 <br><br>
-![](/img/stillwaves-skulls.jpg)
 
