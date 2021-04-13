@@ -3,19 +3,55 @@ layout: post
 author: Daniel Carlyle
 title: Regressing Time Video
 date: 2021-04-12 12:00
-image: http://placehold.it/600x300
-lead: "dfsfsdfsdfdsfdsfds."
-subtitle: Create a ultra fast, secure blog that is easy to mantain and easy to scale
+image: https://www.stillwaves.ca/img/stillwaves-skulls.jpg
+lead: "The brand spanking new StillWaves music video for the track, "Regressing Times" is now out:"
+subtitle: Regressing Times Video
 ---
 
-70% of today’s WordPress installations are vulnerable to known exploits (and WordPress powers more than 25% of the web). WordPress is used by 58.8% of all the websites whose content management system we know. This is [25.4% of all websites](http://w3techs.com/technologies/details/cm-wordpress/all/all) 
+'Regressing Times' addresses the destructive inherent ego and vanity humans possess, and how our actions often seem to regress, despite existing in a time of exceptional technological and social advances. 
 
-We pay a huge price for the underlying complexity of dynamic code running on a server for every request — a price we could avoid paying entirely when this kind of complexity is not needed.
+In the video, scientists create signals to the moon, an example of our curiosity, but also our inherent capitalist drive and sense of entitlement. Something comes back down the surge, something you can't put back. 
 
-Avoid common WP problems like: 
+Meanwhile, people dance the night away, blissfully unaware of what heads their way. The sole person at the dance sitting down, arms crossed, represents the small minority that knows there are some things we should leave alone.
 
-- My blog loading slowly.
-- My blog crashing during peak periods.
-- My blog becoming infected with malware.
+Lyrics: 
+
+Margaret Thatcher, Reagan lies
+Russian puppets, slovak signs
+Scale the ladder, corporate best
+Marry rich, contribute less
+Crack the ground, frack profit lines
+Heat the earth in record time
+
+Build a wall, hear distant cries
+Pray to God to rationalize
+Protect oil, and globalize
+Increase the profits, monetize
+British Brexit, right-wing ties
+A voter base cheers coward's lies
+local crony, local hate
+Tyranny and form a State
+Tyranny on full display
+
+These regressing times
+These repressive lies
+These aggressive times
+These impressive lies
+
+Victim blame (and) ignore the signs,
+Online troll, a pantomime
+Hunt a trophy, hunt a wife
+Squash the left and weaponize
+
+Steal their land, a treaty signed
+Build a statue, build a mine
+1000 natives (to) one white life
+your privilege shows in record time
+
+These regressing times
+These repressive lies
+These aggressive times
+These impressive lies
+
 
 
