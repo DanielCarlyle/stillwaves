@@ -549,12 +549,12 @@ a {
 
 @media (max-width: 768px) {
   .section {
-    padding: 14em 0;
+    padding: 1em 0;
   }
 }
 
 .section {
-  padding: 10em 0;
+  padding: 3em 0;
 }
 
 .text-center {
@@ -946,4 +946,18 @@ transition: all .3 ease;
 
 .section-top {
   margin-top: 2em;;
+}
+
+
+.main-nav a:hover {
+  color: #04090e;
+}
+
+@media only screen and (max-width: 769px) {
+
+header ul li a:hover {
+  color: #000;
+  background: #4ac2d6;
+}
+
 }
