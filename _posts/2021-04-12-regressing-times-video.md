@@ -8,6 +8,8 @@ lead: The brand spanking new StillWaves music video for the track, "Regressing T
 subtitle: Regressing Times Video
 ---
 
+[REGRESSING TIMES VIDEO](https://www.youtube.com/watch?v=bEXw6-vPyeQ&t=219s)
+
 Regressing Times addresses the destructive inherent ego and vanity humans possess, and how our actions often seem to regress, despite existing in a time of exceptional technological and social advances. 
 
 In the video, scientists create signals to the moon, an example of our curiosity, but also our inherent capitalist drive and sense of entitlement. Something comes back down the surge, something you can't put back. 
@@ -16,42 +18,42 @@ Meanwhile, people dance the night away, blissfully unaware of what heads their w
 
 Lyrics: 
 
-Margaret Thatcher, Reagan lies
-Russian puppets, slovak signs
-Scale the ladder, corporate best
-Marry rich, contribute less
-Crack the ground, frack profit lines
-Heat the earth in record time
-
-Build a wall, hear distant cries
-Pray to God to rationalize
-Protect oil, and globalize
-Increase the profits, monetize
-British Brexit, right-wing ties
-A voter base cheers coward's lies
-local crony, local hate
-Tyranny and form a State
-Tyranny on full display
-
-These regressing times
-These repressive lies
-These aggressive times
-These impressive lies
-
-Victim blame (and) ignore the signs,
-Online troll, a pantomime
-Hunt a trophy, hunt a wife
-Squash the left and weaponize
-
-Steal their land, a treaty signed
-Build a statue, build a mine
-1000 natives (to) one white life
-your privilege shows in record time
-
-These regressing times
-These repressive lies
-These aggressive times
-These impressive lies
-
-
+Margaret Thatcher, Reagan lies<br>
+Russian puppets, slovak signs<br>
+Scale the ladder, corporate best<br>
+Marry rich, contribute less<br>
+Crack the ground, frack profit lines<br>
+Heat the earth in record time<br>
+<br><br>
+Build a wall, hear distant cries<br>
+Pray to God to rationalize<br>
+Protect oil, and globalize<br>
+Increase the profits, monetize<br>
+British Brexit, right-wing ties<br>
+A voter base cheers coward's lies<br>
+local crony, local hate<br>
+Tyranny and form a State<br>
+Tyranny on full display<br>
+<br><br>
+These regressing times<br>
+These repressive lies<br>
+These aggressive times<br>
+These impressive lies<br>
+<br><br>
+Victim blame (and) ignore the signs,<br>
+Online troll, a pantomime<br>
+Hunt a trophy, hunt a wife<br>
+Squash the left and weaponize<br>
+<br><br>
+Steal their land, a treaty signed<br>
+Build a statue, build a mine<br>
+1000 natives (to) one white life<br>
+your privilege shows in record time<br>
+<br><br>
+These regressing times<br>
+These repressive lies<br>
+These aggressive times<br>
+These impressive lies<br>
+<br><br>
+![](/img/stillwaves-skulls.jpg)
 
