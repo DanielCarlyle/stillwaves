@@ -1,3 +1,37 @@
+<!-- Blog HTML -->
+<section class="blog mt-4">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12 text-center mx-auto">
+            <h1 style="color: #007bff;">NEWS</h1>
+
+            {% for post in site.posts %}
+            <!-- Blog Post -->
+            <h2>
+               <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %d, %Y" }}</p>
+            {% if page.image %}
+            <img class="img-responsive" src="{{ post.image }}" alt="{{ post.title }}">
+            <hr>
+            {% endif %}
+            {{ post.excerpt }}
+            <a class="btn btn-primary" href="{{ post.url }}">Read More <span
+                  class="glyphicon glyphicon-chevron-right"></span></a>
+
+            <hr>
+            {% endfor %}
+
+
+
+         </div>
+      </div>
+   </div>
+</section>
+
+
+
+
 <section class="section">
 
    <div class="container">

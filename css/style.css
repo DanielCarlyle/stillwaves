@@ -949,6 +949,23 @@ transition: all .3 ease;
 }
 
 
+
+.btn-primary {
+  color: #fff;
+  background-color: #01bcd4;
+  border-color: #01bcd4;
+  border-radius: none;
+  border-radius: 0;
+}
+
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #31d895;
+  border-color: #37e596;
+}
+
+
 .main-nav a:hover {
   color: #04090e;
 }
