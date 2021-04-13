@@ -1,14 +1,14 @@
 ---
 layout: post
 author: Daniel Carlyle
-title: Regressing Time Video
+title: Regressing Times Video
 date: 2021-04-12 12:00
 image: https://www.stillwaves.ca/img/stillwaves-skulls.jpg
-lead: "The brand spanking new StillWaves music video for the track, "Regressing Times" is now out:"
+lead: The brand spanking new StillWaves music video for the track, "Regressing Times" is now out
 subtitle: Regressing Times Video
 ---
 
-'Regressing Times' addresses the destructive inherent ego and vanity humans possess, and how our actions often seem to regress, despite existing in a time of exceptional technological and social advances. 
+Regressing Times addresses the destructive inherent ego and vanity humans possess, and how our actions often seem to regress, despite existing in a time of exceptional technological and social advances. 
 
 In the video, scientists create signals to the moon, an example of our curiosity, but also our inherent capitalist drive and sense of entitlement. Something comes back down the surge, something you can't put back. 
 
