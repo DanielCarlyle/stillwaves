@@ -644,12 +644,12 @@ body {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  width: auto;
+  width: unset;
   -webkit-box-pack: center;
-  justify-content: flex-end;
-  margin-top: 5em;
+  justify-content: center;
+  margin-top: 2em;
   align-content: space-around;
-  align-items: self-end;
+  align-items: flex-start;
 }
 
 .container-boxes .box {
@@ -661,11 +661,11 @@ body {
   display: -webkit-box;
   display: flex;
   font-size: 4vmin;
-  height: 30vmin;
+  min-height: 30vmin;
   -webkit-box-pack: center;
   justify-content: center;
   margin: 1vmin;
-  padding: 3vmin;
+  padding: 2vmin;
   width: 30vmin;
   text-transform: uppercase;
 }
@@ -693,6 +693,10 @@ body {
 
 .container-boxes .box:nth-child(5) {
   background-color: #be0df9;
+}
+
+.container-boxes .box:nth-child(6) {
+  background-color: #f9f9f9;
 }
 
 /* fill styles */
@@ -967,7 +971,11 @@ transition: all .3 ease;
 
 
 .main-nav a:hover {
-  color: #04090e;
+  color: #fb0fb2;
+  text-decoration: none;
+  font-weight: bold;
+  translate: scaleX(1.2);
+  transform: scale(1.4);
 }
 
 @media only screen and (max-width: 769px) {

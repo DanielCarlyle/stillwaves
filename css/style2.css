@@ -634,7 +634,11 @@ hr {
 }
 
 .main-nav a:hover {
-  color: #04090e;
+  color: #fb0fb2;
+  text-decoration: none;
+  font-weight: bold;
+  translate: scaleX(1.2);
+  transform: scale(1.4);
 }
 
 @media only screen and (max-width: 769px) {
